@@ -76,7 +76,7 @@ public class SubjectConroller {
 		
 		  }else {
 			  
-			  	  throw new CustomApiException("이차방정식의 근이 없습니다.");
+			  	  throw new CustomApiException("이차방정식의 근이 없습니다");
 			  	  
 		  }
 	  }
