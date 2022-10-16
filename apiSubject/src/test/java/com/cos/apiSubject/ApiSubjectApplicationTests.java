@@ -1,4 +1,4 @@
-package com.cos.chatapp;
+package com.cos.apiSubject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
