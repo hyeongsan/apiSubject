@@ -21,9 +21,9 @@ import com.cos.apiSubject.domain.Result;
 import com.cos.apiSubject.handler.ex.CustomApiException;
 
 @RestController
-public class SubjectConroller {
+public class SubjectController {
 
-	private static final Logger log = LoggerFactory.getLogger(SubjectConroller.class);
+	private static final Logger log = LoggerFactory.getLogger(SubjectController.class);
 
 	  @PostMapping("/realNumber")
 	  public ResponseEntity<?> realNumber(@RequestBody RealNumber realNumber) {
